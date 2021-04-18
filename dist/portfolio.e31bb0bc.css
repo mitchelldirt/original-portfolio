@@ -5,69 +5,82 @@
   width: auto;
   max-width: 100%;
   height: auto;
-  border: 2px solid #ff4838; }
+  border: 2px solid #ff4838;
+}
 
 #product-landing-page {
-  width: 105%; }
+  width: 105%;
+}
 
 #quote {
   font-family: "Montserrat", Georgia, "Times New Roman", Times, serif;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .flex {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; }
+  width: 50%;
+}
 
 .column-flex {
   display: flex;
   flex-direction: column;
   align-content: space-around;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .project {
   background: var(--main-gray);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 2px; }
+  border-radius: 2px;
+}
 
 .project-image {
   height: calc(100% - 6.8rem);
   width: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
 a {
   font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
   text-decoration: none;
-  color: white; }
+  color: white;
+}
 
 a,
 img {
   width: auto;
   max-width: 100%;
   height: auto;
-  align-items: center; }
+  align-items: center;
+}
 
 header {
   font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
   background-color: #ff4838;
   padding-bottom: 1%;
   padding-top: 1%;
-  border-bottom: 4px solid white; }
+  border-bottom: 4px solid white;
+}
 
 footer {
   font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
   background-color: #ff4838;
   padding-bottom: 2%;
   padding-top: 2%;
-  border-top: 4px solid white; }
+  border-top: 4px solid white;
+}
 
 body {
-  background-color: #162b32; }
+  background-color: #162b32;
+}
 
 h1 {
   font-family: "Damion", Georgia, "Times New Roman", Times, serif;
@@ -79,12 +92,14 @@ h1 {
   color: white;
   justify-content: center;
   margin-bottom: 10%;
-  border: 3px solid #ff4838; }
+  border: 3px solid #ff4838;
+}
 
 p {
   font-size: 85%;
   color: white;
-  font-family: "Oswald", Georgia, "Times New Roman", Times, serif; }
+  font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
+}
 
 table,
 th,
@@ -92,11 +107,13 @@ td {
   border: 1px solid #ff4838;
   color: white;
   font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
-  font-size: 85%; }
+  font-size: 85%;
+}
 
 table {
   margin: 5% 0% 5% 0%;
-  width: 100%; }
+  width: 100%;
+}
 
 h2 {
   font-family: "Damion", Georgia, "Times New Roman", Times, serif;
@@ -105,7 +122,8 @@ h2 {
   color: white;
   font-size: 150%;
   text-align: center;
-  border: 3px solid #ff4838; }
+  border: 3px solid #ff4838;
+}
 
 h3 {
   font-family: "Damion", Georgia, "Times New Roman", Times, serif;
@@ -114,11 +132,12 @@ h3 {
   color: white;
   font-size: 100%;
   text-align: center;
-  border: 3px solid #ff4838; }
+  border: 3px solid #ff4838;
+}
 
 svg {
   width: 20px;
-  height: 20px; }
-
+  height: 20px;
+}
 
 /*# sourceMappingURL=/portfolio.e31bb0bc.css.map */
