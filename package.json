@@ -6,5 +6,10 @@
     "scripts": {
         "start": "parcel index.html",
         "build": "parcel build index.html --public-url ./"
+    },
+    "devDependencies": {
+        "cssnano": "^5.0.1",
+        "node-sass": "^5.0.0",
+        "postcss": "^8.2.1"
     }
 }
