@@ -4,18 +4,54 @@
 
 #profile-pic {
   width: auto;
-  max-width: 100%;
+  
   height: auto;
   border: 2px solid #ff4838;
-}
-
-#product-landing-page {
-  width: 105%;
+  margin-top: 5%;
+  justify-content: center;
 }
 
 #quote {
   font-family: "Montserrat", Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
+  text-align: center;
+  justify-content: center;
+}
+
+#github-icon {
+  fill: #181717;
+}
+
+#github-icon:hover {
+  fill: sandybrown;
+}
+
+#linkedin-icon {
+  fill: #0A66C2;
+}
+
+#linkedin-icon:hover {
+  fill: sandybrown;
+}
+
+#email-icon {
+  fill: #0078D4;
+}
+
+#email-icon:hover {
+  fill: sandybrown;
+}
+
+#twitter-icon {
+  fill: #1DA1F2;
+}
+
+#twitter-icon:hover {
+  fill: sandybrown;
+}
+
+.hover:hover {
+  fill: sandybrown;
 }
 
 .flex {
@@ -47,6 +83,11 @@
   height: calc(100% - 6.8rem);
   width: 100%;
   object-fit: cover;
+}
+
+svg {
+  width: 25px;
+  height: 25px;
 }
 
 a {
