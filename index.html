@@ -12,7 +12,7 @@
   <title>Mitchell Mudd's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="./stylesheets/mobile.scss">
 </head>
-<header class="flex">
+<header class="flex" id="navbar">
   <div><a href="#welcome-section">Who is Mitchell?</a></div>
   <div><a href="#projects">Projects</a></div>
   <div><a href="#icons">Contact</a></div>
@@ -22,11 +22,14 @@
   <script src="./index.js"></script>
   <img class="flex center" id="profile-pic" src="https://cdn.discordapp.com/attachments/826252770142322701/829397142635806780/IMG_1754.jpg"
     alt="Picture of Mitchell Mudd owner and author of this web page." />
-  <h1 id="welcome-section">The Name's Mitchell Mudd</h1>
+  <section id="welcome-section">
+    <h1>The Name's Mitchell Mudd</h1>
   <p>
     I'm a man of many hobbies, but a few of my favorite are: rock climbing,
     mountain biking, and hiking.
   </p>
+</section>
+<section id="knowledge-table">
   <h2 style="text-align: center">What I know and what I don't:</h2>
   <table>
     <tr>
@@ -89,23 +92,24 @@
       </td>
     </tr>
   </table>
+</section>
 
-  <section class="column-flex" id="projects">
-    <h2>Projects</h2>
-    <a id="pokedoc" class="project-image column-flex" href="https://codepen.io/mitchelldirt/pen/MWJmLEX"
-      target="_blank"><img src="./Images/tech_doc.png" alt="Image of my technical document project" />
+  <section class="grid-projects" id="projects">
+    <h2 class="projects__title">Projects</h2>
+    <a id="pokedoc" class="project-tile" href="https://codepen.io/mitchelldirt/pen/MWJmLEX"
+      target="_blank"><img class="projects__poke" src="./Images/tech_doc.png" alt="Image of my technical document project" />
       <p></p>
     </a>
-    <a id="tribute-page" class="project-image column-flex" href="https://codepen.io/mitchelldirt/pen/VwPjGea"
-      target="_blank"><img src="./Images/tribute_page.png" alt="Image of my tribute page project" />
+    <a id="tribute-page" class="project-tile" href="https://codepen.io/mitchelldirt/pen/VwPjGea"
+      target="_blank"><img class="projects__tribute" src="./Images/tribute_page.png" alt="Image of my tribute page project" />
       <p></p>
     </a>
-    <a id="survey" class="project-image column-flex" href="https://codepen.io/mitchelldirt/pen/VwPjgPX"
-      target="_blank"><img src="./Images/survey.png" alt="Image of my survey page project" />
+    <a id="survey" class="project-tile" href="https://codepen.io/mitchelldirt/pen/VwPjgPX"
+      target="_blank"><img class="projects__survey" src="./Images/survey.png" alt="Image of my survey page project" />
       <p></p>
     </a>
-    <a id="product-landing-page" class="project-image column-flex" href="https://codepen.io/mitchelldirt/pen/bGgWBzv"
-      target="_blank"><img src="./Images/product_landing_page.png" alt="Image of my product landing page project" />
+    <a id="product-landing-page" class="project-tile" href="https://codepen.io/mitchelldirt/pen/bGgWBzv"
+      target="_blank"><img class="projects__product-landing" src="./Images/product_landing_page.png" alt="Image of my product landing page project" />
       <p></p>
     </a>
   </section>

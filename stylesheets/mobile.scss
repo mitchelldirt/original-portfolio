@@ -2,9 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Damion&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+#welcome-section {
+height: 100vw;
+width: 100vw;
+}
+
 #profile-pic {
   width: auto;
-  
+
   height: auto;
   border: 2px solid #ff4838;
   margin-top: 5%;
@@ -50,6 +55,46 @@
   fill: sandybrown;
 }
 
+.grid-projects {
+  display: grid;
+  grid-template-areas:
+    'title  title'
+    'project1 project2'
+    'project3 project4';
+}
+
+.projects__title {
+  grid-area: title;
+}
+
+.projects__poke {
+  grid-area: project1;
+}
+
+.projects__product-landing {
+  grid-area: project2;
+}
+
+.projects__tribute {
+  grid-area: project3;
+}
+
+.projects__survey {
+  grid-area: project4;
+}
+
+@media (max-width: 700px) {
+  .grid-projects {
+    grid-template-areas:
+      'title'
+      'project1'
+      'project2'
+      'project3'
+      'project4';
+    gap: 3%;
+  }
+}
+
 .hover:hover {
   fill: sandybrown;
 }
@@ -79,7 +124,19 @@
   border-radius: 2px;
 }
 
-.project-image {
+.project-tile {
+  height: 80%;
+  width: 80%;
+}
+
+@media (max-width: 700px) {
+  .project-tile {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+  }
+}
+
+.project-tile {
   height: calc(100% - 6.8rem);
   width: 100%;
   object-fit: cover;
@@ -118,6 +175,13 @@ footer {
   padding-bottom: 2%;
   padding-top: 2%;
   border-top: 4px solid white;
+  margin-top: 3%;
+}
+
+@media (max-width: 700px) {
+  footer {
+    margin-top: 30%;
+  }
 }
 
 body {
