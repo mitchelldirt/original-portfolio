@@ -3,16 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 #welcome-section {
-height: 100vw;
-width: 100vw;
+  height: 100vw;
+  width: 100vw;
 }
 
 #profile-pic {
   width: auto;
-
   height: auto;
   border: 2px solid #ff4838;
-  margin-top: 5%;
+  margin-top: 10%;
   justify-content: center;
 }
 
@@ -32,7 +31,7 @@ width: 100vw;
 }
 
 #linkedin-icon {
-  fill: #0A66C2;
+  fill: #0a66c2;
 }
 
 #linkedin-icon:hover {
@@ -40,7 +39,7 @@ width: 100vw;
 }
 
 #email-icon {
-  fill: #0078D4;
+  fill: #0078d4;
 }
 
 #email-icon:hover {
@@ -48,7 +47,7 @@ width: 100vw;
 }
 
 #twitter-icon {
-  fill: #1DA1F2;
+  fill: #1da1f2;
 }
 
 #twitter-icon:hover {
@@ -58,9 +57,9 @@ width: 100vw;
 .grid-projects {
   display: grid;
   grid-template-areas:
-    'title  title'
-    'project1 project2'
-    'project3 project4';
+    "title  title"
+    "project1 project2"
+    "project3 project4";
 }
 
 .projects__title {
@@ -86,11 +85,11 @@ width: 100vw;
 @media (max-width: 700px) {
   .grid-projects {
     grid-template-areas:
-      'title'
-      'project1'
-      'project2'
-      'project3'
-      'project4';
+      "title"
+      "project1"
+      "project2"
+      "project3"
+      "project4";
     gap: 3%;
   }
 }
@@ -162,10 +161,16 @@ img {
 }
 
 header {
-  font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  word-spacing: 20%;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 1rem;
   background-color: #ff4838;
-  padding-bottom: 1%;
-  padding-top: 1%;
+  margin-bottom: 10%;
   border-bottom: 4px solid white;
 }
 
@@ -229,6 +234,7 @@ h2 {
   font-size: 150%;
   text-align: center;
   border: 3px solid #ff4838;
+  scroll-margin-top: 5rem;
 }
 
 h3 {
