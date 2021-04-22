@@ -1,2 +1,31 @@
+Header:
+1. Make header a grid possibly
+2. Hover effect for the buttons same as svg icons in footer
+3. Lines diving each button
+4. Stop header from covering the parts of the section
 
+Welcome section:
+1. Actually fill out your bio to have more information about you... one to two paragraphs.
+2. pictures of me doing sports in welcome section?? (Would be cool to have them appear on hover with an animation!)
+3. Possibly change gradient color to match your website colors more
+4. Make text larger on desktop
+
+Table:
+1. Make it larger for desktop
+2. When you feel comfortable in JS add that in and make HTML/CSS one line item
+
+Project section:
+1. fixed image sizes for project tiles (different for mobile and desktop (you can use affinity photo for this maybe))
+2. hover effect for image sizes (make them blurred: include title at top and 1-2 sentences about the project)
+3. Make h2 larger for desktop
+
+Footer:
+1. Make everything larger on desktop
+
+Extras:
+1. Instead of having email icon at the bottom link to your email you could have it link to a form that can be filled out to contact you
+2. Into page that has to be opened to show off css skills
+3. Logo in the header or a banner at the top of the page with a logo on it
+4. New better quality and looking profile picture (make it fun! Maybe rock climbing??)
+5. Animation in between the project tiles. Like a dot floating in between them or something?
 

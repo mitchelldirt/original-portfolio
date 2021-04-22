@@ -17,8 +17,21 @@
   width: auto;
   height: auto;
   border: 2px solid #ff4838;
-  margin-top: 10%;
+  margin-top: 15%;
+  margin-bottom: 4%;
   justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  #profile-pic {
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #profile-pic {
+    margin-top: 60%;
+  }
 }
 
 #quote {
@@ -150,7 +163,7 @@
 .nav-list a {
   display: block;
   font-size: 2.2rem;
-  padding: 0.9rem;
+  padding: 0.7rem;
 }
 
 .project-tile {
