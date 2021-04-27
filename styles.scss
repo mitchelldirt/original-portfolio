@@ -2,6 +2,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Damion&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+.grid-header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  background-color: #ff4838;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.header-borders {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.header_about {
+  grid-area: "about";
+}
+
+.header_projects {
+  grid-area: "projects";
+}
+
+.header_contacts {
+  grid-area: "contacts";
+}
+
 #welcome-section {
   display: flex;
   flex-direction: column;
@@ -17,20 +47,20 @@
   width: auto;
   height: auto;
   border: 2px solid #ff4838;
-  margin-top: 15%;
+  margin-top: 5em;
   margin-bottom: 4%;
   justify-content: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 700px) {
   #profile-pic {
-    margin-top: 40%;
+    margin-top: 10.5em;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 971px) {
   #profile-pic {
-    margin-top: 60%;
+    margin-top: 8em;
   }
 }
 
@@ -172,46 +202,6 @@ a:hover {
   border-radius: 2px;
 }
 
-.nav {
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #ff4838;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  z-index: 10;
-  border-bottom: 3px solid white;
-}
-
-.nav-list {
-  display: flex;
-  margin-right: 2rem;
-}
-
-.nav-list a {
-  display: block;
-  font-size: 1rem;
-  margin-right: 2.5rem;
-}
-
-@media screen and (max-width: 400px) {
-  .nav-list a {
-    display: block;
-    font-size: 1rem;
-    margin-right: 0.75rem;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  .nav-list a {
-    display: block;
-    font-size: 2.2rem;
-    margin-right: 10rem;
-  }
-}
-
 .project-tile {
   height: 80%;
   width: 80%;
@@ -226,11 +216,6 @@ a:hover {
 
 ul {
   list-style: none;
-}
-
-li {
-  display: flex;
-  justify-content: space-around;
 }
 
 svg {
