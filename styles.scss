@@ -10,9 +10,20 @@
 }
 
 .grid-item {
-  padding: 20px;
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .grid-item {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .grid-item {
+    font-size: 30px;
+  }
 }
 
 .header-borders {
@@ -20,27 +31,15 @@
   border-right: 2px solid #fff;
 }
 
-.header_about {
-  grid-area: "about";
-}
-
-.header_projects {
-  grid-area: "projects";
-}
-
-.header_contacts {
-  grid-area: "contacts";
-}
-
 #welcome-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   height: 100vh;
   background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background-image: linear-gradient(62deg, #162b32 10%, #ff4838 90%);
 }
 
 #profile-pic {
@@ -139,6 +138,8 @@
     "title  title"
     "project1 project2"
     "project3 project4";
+  gap: 5%;
+  margin-bottom: 30%;
 }
 
 @media (max-width: 700px) {
@@ -202,11 +203,6 @@ a:hover {
   border-radius: 2px;
 }
 
-.project-tile {
-  height: 80%;
-  width: 80%;
-}
-
 @media screen and (max-width: 700px) {
   .project-tile {
     height: calc(100% - 6.8rem);
@@ -246,10 +242,22 @@ a {
 a,
 img {
   width: auto;
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
   align-items: center;
 }
+
+/* INSTEAD OF DOING THIS CHANGE PROJECT-TILE OR USE A CLASS !! @media screen and (min-width: 701px) {
+  a, 
+  img {
+    margin: auto;
+    width: 20em;
+    height: 20em;
+    max-width: 100%;
+    align-items: center;
+  }
+}
+*/
 
 footer {
   font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
