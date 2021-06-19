@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Damion&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html,
+body {
+  background-color: #162b32;
+}
+
+h1 {
+  font-size: 3em;
+  color: white;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-family: "damion", Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.date {
+  font-size: 0.75em;
+  color: lightgray;
+  font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+#blog-card-1 {
+  background-image: linear-gradient(62deg, #162b32 10%, #ff4838 90%);
+  color: white;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  justify-self: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+}
+
+.blog-card-image {
+  width: 300px;
+  height: 300px;
+  background-image: url(https://media.istockphoto.com/photos/path-in-the-dunes-to-the-beach-picture-id592408558?k=6&m=592408558&s=170667a&w=0&h=WlVFFkFqJJ3E3XrIwueBNoyIYHIol5NHEYPJ39TF82A=);
+  border: 1px solid black;
+}
+
+#main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
