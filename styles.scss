@@ -149,7 +149,7 @@
   margin-bottom: 20%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .grid-projects {
     grid-template-areas:
       "title"
@@ -428,10 +428,17 @@ h3 {
   h1 {
     margin-bottom: 0%;
     padding: 0% 2% 0% 2%;
+    font-size: 3.5em;
   }
 
   #profile-pic {
     height: 300px;
     width: 250px;
   }
+
+  #welcome-section {
+    height: fit-content;
+  }
 }
+
+@media screen and (orientation: landscape) and ()
