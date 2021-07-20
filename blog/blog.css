@@ -45,14 +45,14 @@ a {
 .blog-card {
   background-image: linear-gradient(62deg, #162b32 10%, #ff4838 90%);
   color: white;
-  width: 200px;
+  width: 66%;
   height: 200px;
   border: 1px solid black;
   justify-self: center;
 }
 
 .blog-card-image {
-  width: 100px;
+  width: 33%;
   height: 200px;
   background-image: url(https://media.istockphoto.com/photos/path-in-the-dunes-to-the-beach-picture-id592408558?k=6&m=592408558&s=170667a&w=0&h=WlVFFkFqJJ3E3XrIwueBNoyIYHIol5NHEYPJ39TF82A=);
   border: 1px solid black;
@@ -63,4 +63,81 @@ a {
   flex-direction: column;
   align-items: center;
   justify-items: center;
+}
+
+@media screen and (min-width: 375px) {
+  .wrapper {
+    width: 350px;
+  }
+
+  h1 {
+
+  }
+
+  p {
+
+  }
+
+  .date {
+
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .wrapper {
+    width: 650px;
+  }
+
+  h1 {
+
+  }
+
+  p {
+
+  }
+
+  .date {
+    
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .wrapper {
+    width: 700px;
+  }
+
+  h1 {
+
+  }
+
+  p {
+
+  }
+
+  .date {
+    
+  }
+}
+
+@media screen and (orientation: landscape) {
+}
+
+@media screen and (orientation: landscape) and (min-width: 500px) {
+}
+
+@media screen and (orientation: landscape) and (min-width: 500px) and (max-height: 300px) {
+}
+
+@media screen and (orientation: landscape) and (min-width: 700px) {
+}
+
+@media screen and (orientation: landscape) and (min-width: 750px) {
+}
+
+@media screen and (orientation: landscape) and (min-width: 950px) {
+ 
+}
+
+@media screen and (min-width: 900px) and (max-height: 600px) and (orientation: landscape) {
+  
 }
