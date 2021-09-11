@@ -7,6 +7,10 @@ body {
   background-color: #162b32;
 }
 
+.subtitle {
+  color: gray;
+}
+
 h1 {
   font-size: 2em;
   color: white;
