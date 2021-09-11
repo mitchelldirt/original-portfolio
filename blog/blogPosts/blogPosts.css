@@ -7,12 +7,38 @@ body {
   background-color: #162b32;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  color: gray;
+  text-align: center;
+  font-size: 1.25em;
+  font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+cite {
+  color: white;
+}
+
 h1 {
   font-size: 2em;
   color: #ff4838;
   text-align: center;
-  border: 3px dotted aquamarine;
-  padding: 2%;
+  text-decoration: underline;
   font-family: "Oswald", Arial, Helvetica, sans-serif;
 }
 
@@ -20,19 +46,28 @@ h2 {
   font-size: 1.25em;
   font-family: "damion", Georgia, "Times New Roman", Times, serif;
   text-align: center;
-  color: white;
+  color: #ff4838;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: "damion", Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: #ff4838;
   text-decoration: underline;
 }
 
 p {
   font-size: 0.65em;
   font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
-  text-align: center;
+  text-align: left;
   color: white;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: aqua;
 }
 
 .date {
@@ -72,7 +107,6 @@ a {
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  gap: 5%;
 }
 
 @media screen and (min-width: 375px) {
