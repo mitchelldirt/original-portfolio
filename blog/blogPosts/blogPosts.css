@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Damion&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html,
+body {
+  background-color: #162b32;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  align-self: center;
+  justify-self: center;
+}
+
+cite {
+  color: white;
+  font-size: 0.75em;
+  align-self: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #ff4838;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: "damion", Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: #ff4838;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: #ff4838;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 0.65em;
+  font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  color: white;
+}
+
+a {
+  text-decoration: underline;
+  color: aqua;
+  font-size: 0.75em;
+}
+
+.subtitle {
+  color: gray;
+  text-align: center;
+  font-size: 1.25em;
+  font-family: "Oswald", Georgia, "Times New Roman", Times, serif;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 375px) {
+  .wrapper {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  a {
+    font-size: 1.25em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+
+  cite {
+    font-size: 1.25em;
+  }
+
+  .subtitle {
+    font-size: 1.75em;
+  }
+}
